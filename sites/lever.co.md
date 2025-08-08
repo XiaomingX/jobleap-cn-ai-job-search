@@ -9,18 +9,6 @@ lever.co 是一个专注于人才招聘的软件平台，主要为企业提供�
 - **自动化和集成能力**：包括AI驱动的候选人匹配、自动面试安排，以及与其他HR和工资单系统的无缝集成（例如与Deel的API集成），提升招聘效率并减少手动操作。
 - **个性化招聘体验**：提供候选人营销材料定制、自助候选人门户等功能，提升候选人体验。
 
-lever.co 目前服务全球5000多家企业，尤其适合需要规模化招聘和高效人才管理的中大型公司。它被认为是业内唯一在单一原生平台上同时提供完整ATS和CRM功能的招聘软件，弥补了传统招聘系统之间的关键差距[1][2][3][4]。
+lever.co 目前服务全球5000多家企业，尤其适合需要规模化招聘和高效人才管理的中大型公司。它被认为是业内唯一在单一原生平台上同时提供完整ATS和CRM功能的招聘软件，弥补了传统招聘系统之间的关键差距。
 
 总结来说，lever.co 是一个集申请人追踪与人才关系管理于一体的现代招聘管理平台，旨在帮助企业高效找到并留住顶尖人才，提升招聘质量和速度。
-
-Citations:
-[1] https://www.hrtechchina.com/47801.html
-[2] https://www.hrtechchina.com/tag/lever/
-[3] https://www.lever.co
-[4] https://www.deel.com/zh-cn/case-studies/lever/
-[5] https://www.deel.com/zh-tw/case-studies/lever/
-[6] https://www.cake.me/resources/cake-greenhouse-lever-intergration
-[7] https://www.getguru.com/zh/reference/lever-ats-ai-agent
-[8] https://jobs.lever.co/welocalize/76262dd4-60d7-44b9-a028-900113a97a89
-[9] https://www.qcc.com/product/1f86cbd1-212e-4aae-9661-8840f53c0073.html
-[10] https://blog.csdn.net/gitblog_00672/article/details/141588365
