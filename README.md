@@ -28,5 +28,7 @@
 jobleap.cn 是一款AI原生的智能求职助手，帮助求职者从简历制作、面试准备到职位匹配全方位提升求职竞争力，是技术人和应届生求职的强力工具。
 
 ## 合作建议、新需求与问题解决
- - 请提出Issue[https://github.com/XiaomingX/job_boards/issues]
+ - [请提出Issue](https://github.com/XiaomingX/jobleap-cn-ai-job-search/issues)
+
+
 
