@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:  # 允许手动触发工作流
+  schedule:
+    - cron: "30 23 * * *"  # 每天 23:30 触发一次
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create timestamped .md file
+        run: |
+          timestamp=$(date "+%Y-%m-%d %H:%M:%S")
+          echo "Last update time: $timestamp" > "DATA_UPDATE.md"
+
+      - name: Commit and push .md file
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add DATA_UPDATE.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update DATA_UPDATE.md with timestamp $(date '+%Y-%m-%d %H:%M:%S')"
+            git push origin main
+          fi
