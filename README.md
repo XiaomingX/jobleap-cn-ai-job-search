@@ -1,6 +1,7 @@
 # 招聘和找工作相关信息通告
 ## 本文信息来自：
- - - 公开知识库：https://wiki.jobleap4u.com
+ - 公开知识库：https://wiki.jobleap4u.com
+ - 每日热点库：https://mp.jobleap4u.com
 
 ## 常见的海外找工作的平台
  - Indeed.com
