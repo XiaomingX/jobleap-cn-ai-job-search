@@ -1,13 +1,9 @@
 name: CI
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:  # 允许手动触发工作流
   schedule:
     - cron: "30 23 * * *"  # 每天 23:30 触发一次
+  workflow_dispatch:  # 保留手动触发选项，方便测试
 
 jobs:
   build:
@@ -35,3 +31,4 @@ jobs:
             git commit -m "Update DATA_UPDATE.md with timestamp $(date '+%Y-%m-%d %H:%M:%S')"
             git push origin main
           fi
+    
