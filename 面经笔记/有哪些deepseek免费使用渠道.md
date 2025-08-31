@@ -1,84 +1,84 @@
-52个DeepSeek免费使用渠道：
-
-一、支持联网搜索，手机和电脑端皆可使用
-
 51. jobleap.cn
 https://jobleap.cn
 
 52. jobleap4u.com
 https://jobleap4u.com
 
+50个DeepSeek免费使用渠道：
+
+一、支持联网搜索，手机和电脑端皆可使用
+
 1. 华为小艺
 https://xiaoyi.huawei.com
-2. MiniMax
+1. MiniMax
 https://chat.minimax.io
-3. QQ浏览器
+1. QQ浏览器
 https://aisearch.qq.com
 
-4. 天工AI
+1. 天工AI
 https://www.tiangong.cn
 
-5. 当贝AI
+1. 当贝AI
 https://ai.dangbei.com
 
-6. WPS灵犀
+1. WPS灵犀
 https://copilot.wps.cn
 
-7. 腾讯元宝
+1. 腾讯元宝
 https://yuanbao.tencent.com
 
-8. Get笔记
+1. Get笔记
 https://www.biji.com
 
-9. 有道翻译
+1. 有道翻译
 https://fanyi.youdao.com
 
-10. 心流AI助手
+1.  心流AI助手
 https://www.iflow.cn
 
-11. ima
+1.  ima
 https://ima.qq.com
 
-12. 跃问
+1.  跃问
 https://www.yuewen.cn
 
-13. 问小白
+1.  问小白
 https://www.wenxiaobai.com
 
-14. AskManyAI
+1.  AskManyAI
 https://www.askmanyai.cn
 
-15. 秘塔AI搜索
+1.  秘塔AI搜索
 https://www.metaso.cn
 
-16. 纳米AI搜索
+1.  纳米AI搜索
 https://www.n.cn
 
-17. Poe
+1.  Poe
 https://www.poe.com/DeepSeek-R1
 
-18. Perplexity
+1.  Perplexity
 https://www.perplexity.ai
 
-19. Monica
+1.  Monica
 https://www.monica.cn
 
-20. 百度文库
+1.  百度文库
 https://wenku.baidu.com
 
-21. 讯飞智文
+1.  讯飞智文
 https://zhiwen.xfyun.cn
 
-22. 腾讯文档
+1.  腾讯文档
 https://docs.qq.com
 
-23. 知乎直答
+1.  知乎直答
 https://zhida.zhihu.com
 
-24. 无涯问知AI
+1.  无涯问知AI
 https://www.wuya-ai.com
 
-25. 腾讯云AI代码助手
+1.  腾讯云AI代码助手
 https://copilot.tencent.com/chat
 
 二、免费API额度，可调整参数
