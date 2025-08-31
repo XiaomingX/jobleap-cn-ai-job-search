@@ -1,7 +1,11 @@
 # 招聘和找工作相关信息通告
 ## 本文信息来自：
- - 公开知识库：https://wiki.jobleap4u.com
- - 每日热点库：https://mp.jobleap4u.com
+ - 公开知识库：https://wiki.jobleap4u.com/
+ - 每日热点库：https://mp.jobleap4u.com/
+ - jobleap小助手：https://jobleap.cn/
+
+## 如果你喜欢本文，如下仓库也不容错过：
+ - https://github.com/XiaomingX/Worlds-Best-Universities-Collection
 
 ## 常见的海外找工作的平台
  - Indeed.com
