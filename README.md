@@ -7,6 +7,10 @@
 ## 如果你喜欢本文，如下仓库也不容错过：
  - https://github.com/XiaomingX/Worlds-Best-Universities-Collection
 
+## 如果你立志参与大模型领域，如下仓库不容错过（其中有《机器学习者的藏经阁》）
+ - https://github.com/XiaomingX/ai-money-maker-handbook
+
+
 ## 常见的海外找工作的平台
  - Indeed.com
  - ashbyhq.com
@@ -37,6 +41,5 @@ jobleap.cn 是一款AI原生的智能求职助手，帮助求职者从简历制�
 
 ## 合作建议、新需求与问题解决
  - [请提出Issue](https://github.com/XiaomingX/jobleap-cn-ai-job-search/issues)
-
 
 
