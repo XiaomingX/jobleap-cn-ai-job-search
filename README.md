@@ -5,9 +5,6 @@
  - jobleap小助手：https://jobleap.cn/
  - 求职导航站：https://minisite.jobleap4u.com/
 
-## 如果你喜欢本文，如下仓库也不容错过：
- - https://github.com/XiaomingX/Worlds-Best-Universities-Collection
-
 ## 如果你立志参与大模型领域，如下仓库不容错过（其中有《机器学习者的藏经阁》）
  - https://github.com/XiaomingX/ai-money-maker-handbook
 
