@@ -5,19 +5,6 @@
  - jobleap小助手：https://jobleap.cn/
  - 求职导航站：https://minisite.jobleap4u.com/
 
-## 如果你立志参与大模型领域，如下仓库不容错过（其中有《机器学习者的藏经阁》）
- - https://github.com/XiaomingX/ai-money-maker-handbook
-
-
-## 常见的海外找工作的平台
- - Indeed.com
- - ashbyhq.com
- - cake.me
- - indeed.com
- - lever.co
- - workable.com
-
-
 ## 新发的新颖高端岗位(信息来自 jobleap.cn )
  - 详见jobs目录，github中的信息为来自jobleap.cn中的精选.
  - 简历优化并找到投递入口：在jobleap.cn之中获取和运行.
@@ -36,6 +23,18 @@
 此外，jobleap.cn 可以与其他招聘平台（如BOSS直聘、智联招聘、拉勾招聘）、简历设计工具、AI写作助手（如ChatGPT）、职业学习平台和职业社交平台（如LinkedIn、脉脉）等搭配使用，形成求职全流程的高效协同，进一步提升求职成功率和职业发展质量。
 
 jobleap.cn 是一款AI原生的智能求职助手，帮助求职者从简历制作、面试准备到职位匹配全方位提升求职竞争力，是技术人和应届生求职的强力工具。
+
+## 如果你立志参与大模型领域，如下仓库不容错过（其中有《机器学习者的藏经阁》）
+ - https://github.com/XiaomingX/ai-money-maker-handbook
+
+
+## 常见的海外找工作的平台
+ - Indeed.com
+ - ashbyhq.com
+ - cake.me
+ - indeed.com
+ - lever.co
+ - workable.com
 
 ## 合作建议、新需求与问题解决
  - [请提出Issue](https://github.com/XiaomingX/jobleap-cn-ai-job-search/issues)
