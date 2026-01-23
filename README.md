@@ -1,42 +1,42 @@
 # 招聘和找工作相关信息通告
-## 本文信息来自：
- - 公开知识库：https://wiki.jobleap4u.com/
- - 每日热点库：https://mp.jobleap4u.com/
- - jobleap小助手：https://jobleap.cn/
- - 求职导航站：https://minisite.jobleap4u.com/
 
-## 新发的新颖高端岗位(信息来自 jobleap.cn )
- - 详见jobs目录，github中的信息为来自jobleap.cn中的精选.
- - 简历优化并找到投递入口：在jobleap.cn之中获取和运行.
+就业环境不轻松，但信息差可以被工具和方法缩小。本仓库聚合求职内容、招聘资讯与站点介绍，帮助你更快定位机会、提升投递质量。
 
+## 信息来源
+- 公开知识库：https://wiki.jobleap4u.com/
+- 每日热点库：https://mp.jobleap4u.com/
+- JobLeap 小助手：https://jobleap.cn/
+- 求职导航站：https://minisite.jobleap4u.com/
+- AI Agent小酒馆：https://www.uhaka.com/
 
-## jobleap.cn是干什么用的
- - jobleap.cn 是一个基于人工智能（AI）技术的智能求职平台，专门为技术人员和应届毕业生量身定制，提供全方位的职业发展和求职辅助服务。它集成了模拟面试、面试押题、智能简历模板、职位匹配分析等功能，帮助用户科学规划职业路径，精准定位岗位，从而大幅提升面试通过率和求职效率。
-具体来说，jobleap.cn 的主要功能包括：
- - 模拟面试：基于真实岗位需求，模拟面试场景，帮助用户提前适应面试流程，提升应对技巧和自信心。
- - 面试押题：通过大数据分析，预测目标岗位的高频面试问题，让用户有针对性地准备面试。
- - 简历模板与智能优化：提供多样化、专业化的简历模板，并结合AI智能分析，给出简历优化建议，突出求职者的核心竞争力。
- - 职位机会分析：自动化全网搜寻职位，深度分析岗位匹配度，精准推送适合用户的职位机会，避免盲目投递。
- - 面试复盘：模拟面试结束后生成详细复盘报告，指出优缺点并给出改进建议，帮助求职者不断提升面试表现。
- - 该平台特别适合校招和社招的求职者，尤其是技术人员和应届毕业生，也适合有转行需求的职场人士。它通过AI驱动的智能推荐和职业规划，显著优于传统的招聘软件，提供更全面、更科学、更高效的职业发展支持。
+## 目录速览
+- `jobleap.cn-谁在招人-校招/`、`jobleap.cn-谁在招人-实习/`、`jobleap.cn-谁在招人-社招/`：按日期更新的岗位动态
+- `演讲笔记信息/`：求职策略、趋势分析与面试准备
+- `招聘站点简介/`：平台/工具类站点介绍与使用建议
+- `mp.jobleap4u.com知识库/`：热点内容与日更索引
 
-此外，jobleap.cn 可以与其他招聘平台（如BOSS直聘、智联招聘、拉勾招聘）、简历设计工具、AI写作助手（如ChatGPT）、职业学习平台和职业社交平台（如LinkedIn、脉脉）等搭配使用，形成求职全流程的高效协同，进一步提升求职成功率和职业发展质量。
+## JobLeap 是什么？
+JobLeap（`jobleap.cn`）是一款 **AI 驱动的求职加速器**，核心面向技术人员与应届毕业生，覆盖简历优化、岗位匹配、面试准备与复盘全流程，目标是把“信息多、效率低”变成“路径清晰、执行可落地”。
 
-jobleap.cn 是一款AI原生的智能求职助手，帮助求职者从简历制作、面试准备到职位匹配全方位提升求职竞争力，是技术人和应届生求职的强力工具。
+**核心能力：**
+- 模拟面试与面试押题：提升真实面试稳定性
+- 简历模板与智能优化：提炼关键词与成果表达
+- 职位机会分析：聚合岗位，提升匹配度
+- 面试复盘：复盘改进，持续提升
 
-## 如果你立志参与大模型领域，如下仓库不容错过（其中有《机器学习者的藏经阁》）
- - https://github.com/XiaomingX/ai-money-maker-handbook
+> 如果你需要“简历优化 + 找到投递入口 + 面试准备”的闭环，建议直接在 JobLeap 上完成。
 
+## 大模型方向推荐仓库
+- https://github.com/XiaomingX/ai-money-maker-handbook
 
-## 常见的海外找工作的平台
- - Indeed.com
- - ashbyhq.com
- - cake.me
- - indeed.com
- - lever.co
- - workable.com
+## 常见的海外找工作平台
+- Indeed.com
+- ashbyhq.com
+- cake.me
+- greenhouse.com
+- lever.co
+- workable.com
+- Jobstreet.com
 
 ## 合作建议、新需求与问题解决
- - [请提出Issue](https://github.com/XiaomingX/jobleap-cn-ai-job-search/issues)
-
-
+- [请提出 Issue](https://github.com/XiaomingX/jobleap-cn-ai-job-search/issues)
