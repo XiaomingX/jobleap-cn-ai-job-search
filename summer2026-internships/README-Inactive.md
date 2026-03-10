@@ -1,22 +1,24 @@
-  # Summer 2026 Tech Internships (Inactive Listings)
+# Summer 2026 Tech Internships (Inactive Listings) | 2026年夏季技术实习（不活跃列表）
 
-  This page contains **inactive/closed internship listings** from the Summer 2026 internship season. These positions are no longer accepting applications but are kept for historical reference.
+This page contains **inactive/closed internship listings** from the Summer 2026 internship season. These positions are no longer accepting applications but are kept for historical reference.
+此页面包含 2026年夏季实习季的**不活跃/已关闭岗位列表**。这些职位不再接受申请，但保留供历史参考。
 
-  👉 **Looking for active positions?** Check out the [main README](./README.md) for currently open internships!
+👉 **Looking for active positions?** Check out the [main README](./README.md) for currently open internships!
+👉 **正在寻找活跃岗位？** 请查看 [主 README](./README.md) 以获取当前开放的实习机会！
 
 ---
 
-### Browse 7833 Inactive Internship Roles by Category
+### Browse Inactive Internship Roles by Category | 按类别浏览不活跃实习岗位
 
-💻 **[Software Engineering](./README-Inactive.md#-software-engineering-internship-roles-inactive)** (2688)
+💻 **[Software Engineering / 软件工程](./README-Inactive.md#-software-engineering-internship-roles-inactive)**
 
-📱 **[Product Management](./README-Inactive.md#-product-management-internship-roles-inactive)** (535)
+📱 **[Product Management / 产品管理](./README-Inactive.md#-product-management-internship-roles-inactive)**
 
-🤖 **[Data Science, AI & Machine Learning](./README-Inactive.md#-data-science-ai--machine-learning-internship-roles-inactive)** (3309)
+🤖 **[Data Science, AI & Machine Learning / 数据科学、AI 与机器学习](./README-Inactive.md#-data-science-ai--machine-learning-internship-roles-inactive)**
 
-📈 **[Quantitative Finance](./README-Inactive.md#-quantitative-finance-internship-roles-inactive)** (337)
+📈 **[Quantitative Finance / 量化金融](./README-Inactive.md#-quantitative-finance-internship-roles-inactive)**
 
-🔧 **[Hardware Engineering](./README-Inactive.md#-hardware-engineering-internship-roles-inactive)** (964)
+🔧 **[Hardware Engineering / 硬件工程](./README-Inactive.md#-hardware-engineering-internship-roles-inactive)**
 
 ---
 
@@ -29,32 +31,35 @@
       <img src="https://i.imgur.com/u7xWcQi.png" width="400" alt="Email Updates">
     </a>
     <p><sub><i>Share any other cool projects you make using the repo, and we might give you a shoutout!</i></sub></p>
+    <br>
+    <h3>😮‍💨 厌倦了每天检查新实习？</h3>
+    <p>社区成员开发了 ⬇️ <a href="https://swelist.com"><strong>SWEList</strong></a> ⬇️，可为此仓库的新职位发送邮件提醒。</p>
   </div>
 
   ---
 
-  ## Legend
+  ## Legend | 图例说明
 
-  🛂 Does NOT offer sponsorship
+  🛂 Does NOT offer sponsorship | 不提供签证/身份赞助
 
-  🇺🇸 Requires U.S. Citizenship
+  🇺🇸 Requires U.S. Citizenship | 要求美国公民身份
 
-  🔒 Internship application is closed
+  🔒 Internship application is closed | 申请已关闭
 
-  🔥 FAANG+ company
+  🔥 FAANG+ company | 知名大厂（FAANG+ 等）
 
-  🎓 Advanced degree required (Master's, PhD, MBA)
+  🎓 Advanced degree required (Master's, PhD, MBA) | 要求高级学位（硕士、博士、MBA）
 
-  > **Looking for something else?**
+  > **Looking for something else? | 正在寻找其他内容？**
 
-  > 👉 For active internship listings, check out the [main README](./README.md)  
-  > 🌍 For off-season internships please see the [Off-Season 2025 README](./README-Off-Season.md)  
-  > 🎓 For new-grad tech jobs, check out [New Grad Repo](https://github.com/Pitt-CSC/New-Grad-Positions)  
-  > ☀️ For older summer internships, check out [Archived Summer 2025 README](./archived/README-2025.md)
+  > 👉 For active internship listings, check out the [main README](./README.md) | 查看活跃实习岗位：[主 README](./README.md)  
+  > 🌍 For off-season internships please see the [Off-Season 2025 README](./README-Off-Season.md) | 查看淡季实习：[2025淡季列表](./README-Off-Season.md)  
+  > 🎓 For new-grad tech jobs, check out [New Grad Repo](https://github.com/Pitt-CSC/New-Grad-Positions) | 查看校招/应届生岗位：[校招仓库](https://github.com/Pitt-CSC/New-Grad-Positions)  
+  > ☀️ For older summer internships, check out [Archived Summer 2025 README](./archived/README-2025.md) | 查看往年夏季实习：[2025归档列表](./archived/README-2025.md)
 
   ---
 
-  [⬇️ Jump to bottom ⬇️](#we-love-our-contributors-%EF%B8%8F%EF%B8%8F)
+  [⬇️ Jump to bottom / 跳至底部 ⬇️](#we-love-our-contributors-%EF%B8%8F%EF%B8%8F)
   <!-- Please leave a one line gap between this and the table TABLE_START (DO NOT CHANGE THIS LINE) -->
 
 ---

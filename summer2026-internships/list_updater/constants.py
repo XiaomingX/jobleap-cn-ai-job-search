@@ -1,4 +1,6 @@
-"""Constants and configuration for the internships scripts."""
+"""Constants and configuration for the internships scripts.
+实习脚本的常量和配置。
+"""
 
 import os
 import time
@@ -109,7 +111,7 @@ CATEGORY_MAPPING: dict[str, str] = {
     "hardware engineering": "Hardware Engineering",
 }
 
-# Required schema properties for listings
+# Required schema properties for listings (列表所需的结构属性)
 LISTING_SCHEMA_PROPS: list[str] = [
     "source",
     "company_name",

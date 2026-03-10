@@ -1,4 +1,6 @@
-"""Table and markdown formatting functions."""
+"""Table and markdown formatting functions.
+表格和 Markdown 格式化功能。
+"""
 
 import re
 from datetime import datetime
@@ -11,12 +13,13 @@ type Listing = dict[str, Any]
 
 def get_locations(listing: Listing) -> str:
     """Format locations for display in the table.
+    格式化要在表格中显示的地点。
 
     Args:
-        listing: A listing dictionary.
+        listing: A listing dictionary. (列表字典)
 
     Returns:
-        HTML-formatted location string.
+        HTML-formatted location string. (HTML 格式的地点字符串)
     """
     locations = "<br>".join(listing["locations"])
     if len(listing["locations"]) <= 3:
@@ -27,12 +30,13 @@ def get_locations(listing: Listing) -> str:
 
 def get_sponsorship(listing: Listing) -> str:
     """Get sponsorship indicator emoji.
+    获取签证/赞助指示图标。
 
     Args:
-        listing: A listing dictionary.
+        listing: A listing dictionary. (列表字典)
 
     Returns:
-        Emoji string for sponsorship status.
+        Emoji string for sponsorship status. (签证/赞助状态的图标字符串)
     """
     if listing["sponsorship"] == "Does Not Offer Sponsorship":
         return " 🛂"
@@ -43,12 +47,13 @@ def get_sponsorship(listing: Listing) -> str:
 
 def get_link(listing: Listing) -> str:
     """Generate the application link HTML.
+    生成申请链接的 HTML。
 
     Args:
-        listing: A listing dictionary.
+        listing: A listing dictionary. (列表字典)
 
     Returns:
-        HTML string with application button(s).
+        HTML string with application button(s). (包含申请按钮的 HTML 字符串)
     """
     if not listing["active"]:
         return "🔒"
@@ -61,12 +66,13 @@ def get_link(listing: Listing) -> str:
 
 def convert_markdown_to_html(text: str) -> str:
     """Convert markdown formatting to HTML for proper rendering in HTML table cells.
+    将 Markdown 格式转换为 HTML，以便在 HTML 表格单元格中正确渲染。
 
     Args:
-        text: Markdown-formatted text.
+        text: Markdown-formatted text. (Markdown 格式的文本)
 
     Returns:
-        HTML-formatted text.
+        HTML-formatted text. (HTML 格式的文本)
     """
     # Convert **bold** to <strong>bold</strong>
     text = re.sub(r"\*\*(.*?)\*\*", r"<strong>\1</strong>", text)
@@ -96,13 +102,14 @@ th { text-align: left; font-weight: bold; }
 
 def create_md_table(listings: list[Listing], off_season: bool = False) -> str:
     """Create an HTML table from listings.
+    从列表创建 HTML 表格。
 
     Args:
-        listings: List of listing dictionaries.
-        off_season: Whether this is for off-season listings (includes terms column).
+        listings: List of listing dictionaries. (列表字典)
+        off_season: Whether this is for off-season listings (includes terms column). (是否为淡季列表（包含条款列）)
 
     Returns:
-        HTML table string.
+        HTML table string. (HTML 表格字符串)
     """
     # Create clean HTML table with minimal styling
     table = "<table>\n<thead>\n<tr>\n"

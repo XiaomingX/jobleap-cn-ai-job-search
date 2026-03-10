@@ -1,46 +1,47 @@
-# Off-Season Tech Internships
+# Off-Season Tech Internships | 淡季技术实习
 
 We're back! Use this repo to share and keep track of software, tech, CS, PM, quant internships for **Fall 2025, Winter 2026, or Spring 2026**. The list is maintained collaboratively by the community!
+我们回来了！使用此仓库分享并追踪 **2025年秋季、2026年冬季或 2026年春季**的软件、技术、CS、PM、量化等实习机会。列表由社区协作维护！
 
 ❗ Please note that this repository is exclusively for internships/co-ops in the United States, Canada, or Remote positions 🌎
+❗ 请注意，此仓库仅限美国、加拿大或远程职位的实习/Co-op 🌎
 
 🧠 For valuable tips on navigating the internship process, be sure to check out our guide [Zero to Offer](https://www.pittcs.wiki/zero-to-offer) 🧠.
+🧠 想获取实习申请的宝贵建议？请查看我们的指南：[Zero to Offer](https://www.pittcs.wiki/zero-to-offer) 🧠。
 
 🙏 **Contribute by submitting an [issue](./issues/new/choose)! See the contribution guidelines [here](./CONTRIBUTING.md)!** 🙏
+🙏 **通过提交 [issue](./issues/new/choose) 做出贡献！查看贡献指南 [请点击此处](./CONTRIBUTING.md)！** 🙏
 
 ---
 
-### Browse 528 Internship Roles by Category
+### Browse Internship Roles by Category | 按类别浏览实习岗位
 
-💻 **[Software Engineering](./README-Off-Season.md#-software-engineering-internship-roles)** (178)
+💻 **[Software Engineering / 软件工程](./README-Off-Season.md#-software-engineering-internship-roles)**
 
-📱 **[Product Management](./README-Off-Season.md#-product-management-internship-roles)** (51)
+📱 **[Product Management / 产品管理](./README-Off-Season.md#-product-management-internship-roles)**
 
-🤖 **[Data Science, AI & Machine Learning](./README-Off-Season.md#-data-science-ai--machine-learning-internship-roles)** (219)
+🤖 **[Data Science, AI & Machine Learning / 数据科学、AI 与机器学习](./README-Off-Season.md#-data-science-ai--machine-learning-internship-roles)**
 
-📈 **[Quantitative Finance](./README-Off-Season.md#-quantitative-finance-internship-roles)** (3)
+📈 **[Quantitative Finance / 量化金融](./README-Off-Season.md#-quantitative-finance-internship-roles)**
 
-🔧 **[Hardware Engineering](./README-Off-Season.md#-hardware-engineering-internship-roles)** (77)
+🔧 **[Hardware Engineering / 硬件工程](./README-Off-Season.md#-hardware-engineering-internship-roles)**
 
 ---
 
 <div align="center">
-	<p>
-		
-			</div>
-		</a>
-		
-	</p>
+  <p>
+  </p>
 </div>
 
-## The List 🚴🏔
+## The List | 列表说明 🚴🏔
 
- - 🛂 - Does NOT offer Sponsorship
- - 🇺🇸 - Requires U.S. Citizenship
- - 🔒 - Internship application is closed
+ - 🛂 - Does NOT offer Sponsorship | 不提供签证/身份赞助
+ - 🇺🇸 - Requires U.S. Citizenship | 要求美国公民身份
+ - 🔒 - Internship application is closed | 申请已关闭
 
-> **Note**:
+> **Note | 说明**:
 > This README file is for **non-summer internships only**. For summer internships, please see the [Summer 2026 README](./README.md).
+> 此 README 文件**仅针对非夏季实习**。如需夏季实习，请查看 [2026年夏季实习 README](./README.md)。
 
 <!-- Please leave a one line gap between this and the table TABLE_START (DO NOT CHANGE THIS LINE) -->
 

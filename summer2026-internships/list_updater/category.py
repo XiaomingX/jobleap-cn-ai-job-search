@@ -1,4 +1,6 @@
-"""Job category classification and management functions."""
+"""Job category classification and management functions.
+职位类别分类和管理功能。
+"""
 
 import re
 from typing import Any
@@ -15,15 +17,17 @@ WORD_BOUNDARY_KEYWORDS = frozenset({"ai", "ml", "rf", "qa", "sre", "swe", "sde",
 
 def _matches_keyword(title: str, keyword: str) -> bool:
     """Check if a keyword matches in the title.
+    检查标题中是否匹配关键字。
 
     Uses word boundary matching for short keywords to avoid false positives.
+    对短关键字使用词边界匹配，以避免误报。
 
     Args:
-        title: The lowercased job title.
-        keyword: The keyword to search for.
+        title: The lowercased job title. (小写的职位标题)
+        keyword: The keyword to search for. (要搜索的关键字)
 
     Returns:
-        True if the keyword matches in the title.
+        True if the keyword matches in the title. (如果关键字匹配则返回 True)
     """
     if keyword in WORD_BOUNDARY_KEYWORDS:
         return bool(re.search(rf"\b{re.escape(keyword)}\b", title))
@@ -32,12 +36,13 @@ def _matches_keyword(title: str, keyword: str) -> bool:
 
 def classify_job_category(job: Listing) -> str | None:
     """Classify a job into a category based on its title.
+    根据职位标题将职位分类。
 
     Args:
-        job: A job listing dictionary.
+        job: A job listing dictionary. (职位列表字典)
 
     Returns:
-        The category name, or None if the job should be filtered out.
+        The category name, or None if the job should be filtered out. (类别名称，如果应过滤掉该职位则返回 None)
     """
     title = job.get("title", "").lower()
 
@@ -246,13 +251,14 @@ def classify_job_category(job: Listing) -> str | None:
 
 def ensure_categories(listings: list[Listing], verbose: bool = False) -> list[Listing]:
     """Ensure all listings have a valid category assigned.
+    确保所有列表都分配了有效的类别。
 
     Args:
-        listings: List of listing dictionaries.
-        verbose: If True, print details about filtered jobs.
+        listings: List of listing dictionaries. (列表字典)
+        verbose: If True, print details about filtered jobs. (如果为 True，打印有关被过滤职位的详情)
 
     Returns:
-        List of categorized listings (some may be filtered out).
+        List of categorized listings (some may be filtered out). (已分类列表的列表)
     """
     categorized_listings: list[Listing] = []
     filtered_jobs: list[Listing] = []
@@ -313,16 +319,17 @@ def create_category_table(
     inactive_only: bool = False,
 ) -> str:
     """Create a table section for a specific category.
+    为特定类别创建表格部分。
 
     Args:
-        listings: List of listing dictionaries.
-        category_name: The category name to filter by.
-        off_season: Whether this is for off-season listings.
-        active_only: If True, only include active listings (no inactive section).
-        inactive_only: If True, only include inactive listings.
+        listings: List of listing dictionaries. (列表字典)
+        category_name: The category name to filter by. (要过滤的类别名称)
+        off_season: Whether this is for off-season listings. (是否为淡季列表)
+        active_only: If True, only include active listings (no inactive section). (如果为 True，仅包含活跃列表)
+        inactive_only: If True, only include inactive listings. (如果为 True，仅包含不活跃列表)
 
     Returns:
-        HTML/markdown string for the category section.
+        HTML/markdown string for the category section. (类别部分的 HTML/Markdown 字符串)
     """
     category_listings = [listing for listing in listings if listing["category"] == category_name]
     if not category_listings:

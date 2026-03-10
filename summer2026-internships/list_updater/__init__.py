@@ -23,10 +23,8 @@ from list_updater.constants import (
     LONG_APPLY_BUTTON,
     NON_SIMPLIFY_INACTIVE_THRESHOLD_MONTHS,
     SHORT_APPLY_BUTTON,
-    SIMPLIFY_BUTTON,
     SIMPLIFY_INACTIVE_THRESHOLD_MONTHS,
     SIZE_BUFFER,
-    SQUARE_SIMPLIFY_BUTTON,
 )
 from list_updater.formatter import (
     convert_markdown_to_html,
@@ -68,10 +66,8 @@ __all__ = [
     "LONG_APPLY_BUTTON",
     "NON_SIMPLIFY_INACTIVE_THRESHOLD_MONTHS",
     "SHORT_APPLY_BUTTON",
-    "SIMPLIFY_BUTTON",
     "SIMPLIFY_INACTIVE_THRESHOLD_MONTHS",
     "SIZE_BUFFER",
-    "SQUARE_SIMPLIFY_BUTTON",
     # GitHub
     "fail",
     "set_output",

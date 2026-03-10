@@ -1,4 +1,6 @@
-"""README generation and embedding functions."""
+"""README generation and embedding functions.
+README 生成和嵌入功能。
+"""
 
 from typing import Any
 
@@ -11,13 +13,14 @@ type Listing = dict[str, Any]
 
 def check_and_insert_warning(content: str, repo_name: str = "Summer2026-Internships") -> str:
     """Insert warning notice before GitHub cutoff point while preserving full content.
+    在 GitHub 截断点之前插入警告通知，同时保留完整内容。
 
     Args:
-        content: The README content.
-        repo_name: The repository name for links.
+        content: The README content. (README 内容)
+        repo_name: The repository name for links. (用于链接的代码库名称)
 
     Returns:
-        Content with warning inserted if necessary.
+        Content with warning inserted if necessary. (如果需要，返回插入了警告的内容)
     """
     content_size = len(content.encode("utf-8"))
 
@@ -28,14 +31,14 @@ def check_and_insert_warning(content: str, repo_name: str = "Summer2026-Internsh
     # Use a smaller buffer so the warning appears right at the cutoff, not before it
     target_size = GITHUB_FILE_SIZE_LIMIT - SIZE_BUFFER
 
-    # Convert to bytes for accurate measurement
+    # Convert to bytes for accurate measurement (转换为字节以进行准确测量)
     content_bytes = content.encode("utf-8")
 
-    # Find the last complete table row before the limit
+    # Find the last complete table row before the limit (找到限制前的最后一行完整表格行)
     insertion_bytes = content_bytes[:target_size]
     insertion_content = insertion_bytes.decode("utf-8", errors="ignore")
 
-    # Find the last complete </tr> tag to ensure clean insertion
+    # Find the last complete </tr> tag to ensure clean insertion (找到最后一个完整的 </tr> 标签以确保干净地插入)
     last_tr_end = insertion_content.rfind("</tr>")
     if last_tr_end != -1:
         # Find the end of this row
@@ -55,9 +58,9 @@ def check_and_insert_warning(content: str, repo_name: str = "Summer2026-Internsh
 ---
 
 <div align="center" id="github-cutoff-warning">
-  <h2>🔗 See Full List</h2>
-  <p><strong>⚠️ GitHub preview cuts off around here due to file size limits.</strong></p>
-  <p>📋 <strong><a href="./README.md#-see-full-list">Click here to view the complete list with all internship opportunities!</a></strong> 📋</p>
+  <h2>🔗 See Full List (查看完整列表)</h2>
+  <p><strong>⚠️ GitHub preview cuts off around here due to file size limits. (由于文件大小限制，GitHub 预览在此处被截断。)</strong></p>
+  <p>📋 <strong><a href="./README.md#-see-full-list">Click here to view the complete list with all internship opportunities! (点击此处查看包含所有实习机会的完整列表！)</a></strong> 📋</p>
 </div>
 
 ---
@@ -90,13 +93,14 @@ def embed_table(
     inactive_only: bool = False,
 ) -> None:
     """Embed the listings table into a README file.
+    将列表表格嵌入 README 文件。
 
     Args:
-        listings: List of listing dictionaries.
-        filepath: Path to the README file to modify.
-        off_season: Whether this is for off-season listings.
-        active_only: If True, only include active listings (no inactive sections).
-        inactive_only: If True, only include inactive listings.
+        listings: List of listing dictionaries. (列表字典)
+        filepath: Path to the README file to modify. (要修改的 README 文件路径)
+        off_season: Whether this is for off-season listings. (是否为淡季列表)
+        active_only: If True, only include active listings (no inactive sections). (如果为 True，仅包含活跃列表)
+        inactive_only: If True, only include inactive listings. (如果为 True，仅包含不活跃列表)
     """
     # Ensure all listings have a category
     listings = ensure_categories(listings)

@@ -1,4 +1,6 @@
-"""GitHub Actions utility functions."""
+"""GitHub Actions utility functions.
+GitHub Actions 公用函数。
+"""
 
 import os
 import sys
@@ -8,10 +10,11 @@ from typing import Any
 
 def set_output(key: str, value: Any) -> None:
     """Set a GitHub Actions output variable.
+    设置 GitHub Actions 输出变量。
 
     Args:
-        key: The output variable name.
-        value: The value to set (will be converted to string).
+        key: The output variable name. (输出变量名称)
+        value: The value to set (will be converted to string). (要设置的值，将被转换为字符串)
     """
     output = os.getenv("GITHUB_OUTPUT")
     if output:
@@ -32,9 +35,10 @@ def set_output(key: str, value: Any) -> None:
 
 def fail(why: str) -> None:
     """Set error message and exit with failure.
+    设置错误消息并以失败状态退出。
 
     Args:
-        why: The error message to output.
+        why: The error message to output. (要输出的错误消息)
     """
     set_output("error_message", why)
     sys.exit(1)

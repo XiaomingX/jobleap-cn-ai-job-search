@@ -1,4 +1,6 @@
-"""Analytics and debugging commands for listings."""
+"""Analytics and debugging commands for listings.
+列表的分析和调试命令。
+"""
 
 import json
 import subprocess
@@ -25,9 +27,10 @@ type Listing = dict[str, Any]
 
 def cmd_listings_stats(json_output: bool = False) -> None:
     """Show listing statistics.
+    显示列表统计信息。
 
     Args:
-        json_output: If True, output as JSON instead of formatted text.
+        json_output: If True, output as JSON instead of formatted text. (如果为 True，以 JSON 格式输出而非格式化文本)
     """
     listings = get_listings_from_json()
 
@@ -112,9 +115,10 @@ def cmd_listings_stats(json_output: bool = False) -> None:
 
 def cmd_listings_validate(fix: bool = False) -> None:
     """Validate listings.json schema and data integrity.
+    验证 listings.json 的结构和数据完整性。
 
     Args:
-        fix: If True, attempt to auto-fix issues where possible.
+        fix: If True, attempt to auto-fix issues where possible. (如果为 True，尽力自动修复问题)
     """
     listings = get_listings_from_json()
     issues: list[str] = []
@@ -265,15 +269,16 @@ def cmd_listings_search(
     limit: int = 20,
 ) -> None:
     """Search and filter listings.
+    搜索并过滤列表。
 
     Args:
-        company: Filter by company name (case-insensitive substring match).
-        title: Filter by job title (case-insensitive substring match).
-        location: Filter by location (case-insensitive substring match).
-        category: Filter by category (case-insensitive substring match).
-        active_only: Show only active listings.
-        inactive_only: Show only inactive listings.
-        limit: Maximum number of results to show.
+        company: Filter by company name (case-insensitive substring match). (按公司名称过滤)
+        title: Filter by job title (case-insensitive substring match). (按职位头衔过滤)
+        location: Filter by location (case-insensitive substring match). (按地点过滤)
+        category: Filter by category (case-insensitive substring match). (按类别过滤)
+        active_only: Show only active listings. (仅显示活跃列表)
+        inactive_only: Show only inactive listings. (仅显示不活跃列表)
+        limit: Maximum number of results to show. (显示的最多结果数)
     """
     listings = get_listings_from_json()
     results: list[Listing] = []
@@ -329,10 +334,11 @@ def cmd_listings_search(
 
 def cmd_listings_diff(since: str | None = None, commit: str | None = None) -> None:
     """Show changes to listings since a date or commit.
+    显示自指定日期或提交以来的列表变化。
 
     Args:
-        since: Show changes since this date (YYYY-MM-DD format).
-        commit: Show changes since this git commit hash.
+        since: Show changes since this date (YYYY-MM-DD format). (自该日期以来的变化)
+        commit: Show changes since this git commit hash. (自该 git commit hash 以来的变化)
     """
     listings = get_listings_from_json()
 

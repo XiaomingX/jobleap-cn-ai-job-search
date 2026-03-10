@@ -1,24 +1,27 @@
-# Summer 2026 Tech Internships
+# Summer 2026 Tech Internships | 2026年夏季技术实习
 
 We're back! Use this repo to share and keep track of **Summer 2026 tech internships** across software, data science, quant, and more. The list is updated and maintained daily by the community!
+我们回来了！使用此仓库分享并追踪 **2026年夏季技术实习**，涵盖软件、数据科学、量化交易等多个领域。列表由社区维护，每日更新！
 
   🧠 For valuable tips on navigating the internship process, be sure to check out our guide: [**Zero to Offer**](https://web.archive.org/web/20250319235510/https://pittcs.wiki/zero-to-offer/) 🧠 
+  🧠 想获取实习申请的宝贵建议？请查看我们的指南：[**从零到 Offer**](https://web.archive.org/web/20250319235510/https://pittcs.wiki/zero-to-offer/) 🧠 
 
   🙏 **Contribute by submitting an [issue](./issues/new/choose)! See the contribution guidelines [here](./CONTRIBUTING.md)!** 🙏
+  🙏 **通过提交 [issue](./issues/new/choose) 做出贡献！查看贡献指南 [请点击此处](./CONTRIBUTING.md)！** 🙏
 
 ---
 
-### Browse 1449 Internship Roles by Category
+### Browse Internship Roles by Category | 按类别浏览实习岗位
 
-💻 **[Software Engineering](./README.md#-software-engineering-internship-roles)** (401)
+💻 **[Software Engineering / 软件工程](./README.md#-software-engineering-internship-roles)**
 
-📱 **[Product Management](./README.md#-product-management-internship-roles)** (113)
+📱 **[Product Management / 产品管理](./README.md#-product-management-internship-roles)**
 
-🤖 **[Data Science, AI & Machine Learning](./README.md#-data-science-ai--machine-learning-internship-roles)** (735)
+🤖 **[Data Science, AI & Machine Learning / 数据科学、AI 与机器学习](./README.md#-data-science-ai--machine-learning-internship-roles)**
 
-📈 **[Quantitative Finance](./README.md#-quantitative-finance-internship-roles)** (16)
+📈 **[Quantitative Finance / 量化金融](./README.md#-quantitative-finance-internship-roles)**
 
-🔧 **[Hardware Engineering](./README.md#-hardware-engineering-internship-roles)** (184)
+🔧 **[Hardware Engineering / 硬件工程](./README.md#-hardware-engineering-internship-roles)**
 
 ---
 
@@ -31,32 +34,35 @@ We're back! Use this repo to share and keep track of **Summer 2026 tech internsh
       <img src="https://i.imgur.com/u7xWcQi.png" width="400" alt="Email Updates">
     </a>
     <p><sub><i>Share any other cool projects you make using the repo, and we might give you a shoutout!</i></sub></p>
+    <br>
+    <h3>😮‍💨 厌倦了每天检查新实习？</h3>
+    <p>社区成员开发了 ⬇️ <a href="https://swelist.com"><strong>SWEList</strong></a> ⬇️，可为此仓库的新职位发送邮件提醒。</p>
   </div>
 
   ---
 
-  ## Legend
+  ## Legend | 图例说明
 
-  🛂 Does NOT offer sponsorship
+  🛂 Does NOT offer sponsorship | 不提供签证/身份赞助
 
-  🇺🇸 Requires U.S. Citizenship
+  🇺🇸 Requires U.S. Citizenship | 要求美国公民身份
 
-  🔒 Internship application is closed
+  🔒 Internship application is closed | 申请已关闭
 
-  🔥 FAANG+ company
+  🔥 FAANG+ company | 知名大厂（FAANG+ 等）
 
-  🎓 Advanced degree required (Master's, PhD, MBA)
+  🎓 Advanced degree required (Master's, PhD, MBA) | 要求高级学位（硕士、博士、MBA）
 
-  > **Looking for something else?**
+  > **Looking for something else? | 正在寻找其他内容？**
 
-  > 🔒 For closed/inactive internship listings, check out [Inactive Listings](./README-Inactive.md)  
-  > 🌍 For off-season internships please see the [Off-Season 2025 README](./README-Off-Season.md)  
-  > 🎓 For new-grad tech jobs, check out [New Grad Repo](./README-New-Grad.md)
-  > ☀️ For older summer internships, check out [Archived Summer 2025 README](./archived/README-2025.md)
+  > 🔒 For closed/inactive internship listings, check out [Inactive Listings](./README-Inactive.md) | 查看已关闭/不活跃岗位：[不活跃列表](./README-Inactive.md)  
+  > 🌍 For off-season internships please see the [Off-Season 2025 README](./README-Off-Season.md) | 查看淡记实习：[2025淡季列表](./README-Off-Season.md)  
+  > 🎓 For new-grad tech jobs, check out [New Grad Repo](./README-New-Grad.md) | 查看校招/应届生岗位：[校招仓库](./README-New-Grad.md)
+  > ☀️ For older summer internships, check out [Archived Summer 2025 README](./archived/README-2025.md) | 查看往年夏季实习：[2025归档列表](./archived/README-2025.md)
 
   ---
 
-  [⬇️ Jump to bottom ⬇️](#we-love-our-contributors-%EF%B8%8F%EF%B8%8F)
+  [⬇️ Jump to bottom / 跳至底部 ⬇️](#we-love-our-contributors-%EF%B8%8F%EF%B8%8F)
   <!-- Please leave a one line gap between this and the table TABLE_START (DO NOT CHANGE THIS LINE) -->
 
 ---

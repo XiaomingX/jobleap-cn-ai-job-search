@@ -1,4 +1,6 @@
-"""Listing data operations: loading, filtering, sorting, and validation."""
+"""Listing data operations: loading, filtering, sorting, and validation.
+列表数据操作：加载、过滤、排序和验证。
+"""
 
 import json
 from datetime import datetime
@@ -17,12 +19,13 @@ type Listing = dict[str, Any]
 
 def get_listings_from_json(filename: str = ".github/scripts/listings.json") -> list[Listing]:
     """Load listings from a JSON file.
+    从 JSON 文件加载列表。
 
     Args:
-        filename: Path to the JSON file.
+        filename: Path to the JSON file. (JSON 文件路径)
 
     Returns:
-        List of listing dictionaries.
+        List of listing dictionaries. (列表字典)
     """
     with open(filename) as f:
         listings: list[Listing] = json.load(f)
@@ -32,12 +35,13 @@ def get_listings_from_json(filename: str = ".github/scripts/listings.json") -> l
 
 def mark_stale_listings(listings: list[Listing]) -> list[Listing]:
     """Mark listings as inactive if they exceed the age threshold.
+    如果列表超过时间阈值，则将其标记为不活跃。
 
     Args:
-        listings: List of listing dictionaries.
+        listings: List of listing dictionaries. (列表字典)
 
     Returns:
-        The same list with stale listings marked as inactive.
+        The same list with stale listings marked as inactive. (标记了不活跃列表后的列表)
     """
     now = datetime.now()
     for listing in listings:
@@ -51,26 +55,28 @@ def mark_stale_listings(listings: list[Listing]) -> list[Listing]:
 
 def filter_active(listings: list[Listing]) -> list[Listing]:
     """Filter to only active listings.
+    过滤以仅包含活跃列表。
 
     Args:
-        listings: List of listing dictionaries.
+        listings: List of listing dictionaries. (列表字典)
 
     Returns:
-        List containing only active listings.
+        List containing only active listings. (仅包含活跃列表的列表)
     """
     return [listing for listing in listings if listing.get("active", False)]
 
 
 def filter_summer(listings: list[Listing], year: str, earliest_date: int) -> list[Listing]:
     """Filter listings for summer internships of a specific year.
+    针对特定年份的暑期实习过滤。
 
     Args:
-        listings: List of listing dictionaries.
-        year: The year to filter for (e.g., "2026").
-        earliest_date: Unix timestamp for the earliest allowed date.
+        listings: List of listing dictionaries. (列表字典)
+        year: The year to filter for (e.g., "2026"). (要过滤的年份，例如 "2026")
+        earliest_date: Unix timestamp for the earliest allowed date. (允许的最早日期的 Unix 时间戳)
 
     Returns:
-        Filtered list of summer internships.
+        Filtered list of summer internships. (过滤后的暑期实习列表)
     """
     # Convert blocked URLs to lowercase for case-insensitive comparison
     blocked_urls_lower = {url.lower() for url in BLOCKED_COMPANIES}
@@ -92,12 +98,13 @@ def filter_summer(listings: list[Listing], year: str, earliest_date: int) -> lis
 
 def filter_off_season(listings: list[Listing]) -> list[Listing]:
     """Filter listings for off-season (Fall, Winter, Spring) internships.
+    针对非暑期（秋季、冬季、春季）实习过滤。
 
     Args:
-        listings: List of listing dictionaries.
+        listings: List of listing dictionaries. (列表字典)
 
     Returns:
-        Filtered list of off-season internships.
+        Filtered list of off-season internships. (过滤后的非暑期实习列表)
     """
 
     def is_off_season(listing: Listing) -> bool:
@@ -116,12 +123,13 @@ def filter_off_season(listings: list[Listing]) -> list[Listing]:
 
 def sort_listings(listings: list[Listing]) -> list[Listing]:
     """Sort listings by date and company.
+    按日期和公司对列表排序。
 
     Args:
-        listings: List of listing dictionaries.
+        listings: List of listing dictionaries. (列表字典)
 
     Returns:
-        Sorted list of listings.
+        Sorted list of listings. (排序后的列表)
     """
     oldest_listing_from_company: dict[str, int] = {}
     link_for_company: dict[str, str] = {}

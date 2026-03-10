@@ -1,4 +1,6 @@
-"""CLI command implementations for the list updater."""
+"""CLI command implementations for the list updater.
+列表更新器的命令行界面 (CLI) 命令实现。
+"""
 
 import json
 import re
@@ -32,7 +34,7 @@ type ResultDict = dict[str, dict[str, str]]
 
 
 def cmd_readme_update() -> None:
-    """Update README files from listings.json."""
+    """Update README files from listings.json. (从 listings.json 更新 README 文件。)"""
     listings = get_listings_from_json()
 
     check_schema(listings)
@@ -58,7 +60,9 @@ def cmd_readme_update() -> None:
 
 
 def _clean(s: str) -> str:
-    """Clean a string by removing markdown formatting and extra whitespace."""
+    """Clean a string by removing markdown formatting and extra whitespace.
+    清空字符串，移除 Markdown 格式和多余空格。
+    """
     return re.sub(r"[\s*_`]+", " ", s or "").strip()
 
 
@@ -245,7 +249,7 @@ def _get_contribution_data(body: str, is_edit: bool, username: str) -> dict[str,
 
 
 def cmd_contribution_process(event_file: str) -> None:
-    """Process an approved contribution issue."""
+    """Process an approved contribution issue. (处理已批准的贡献 issue。)"""
     try:
         with open(event_file) as f:
             event_data = json.load(f)
@@ -520,7 +524,7 @@ def _generate_summary_comment(results: ResultDict, reason: str) -> str:
 
 
 def cmd_listings_mark_inactive(event_file: str) -> None:
-    """Process a bulk mark inactive issue."""
+    """Process a bulk mark inactive issue. (处理批量标记为不活跃的 issue。)"""
     try:
         with open(event_file) as f:
             event_data = json.load(f)
