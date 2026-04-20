@@ -6,7 +6,7 @@
 - 公开知识库：https://wiki.jobleap4u.com/
 - 每日热点库：https://mp.jobleap4u.com/
 - JobLeap 小助手：https://jobleap.cn/
-- 求职导航站：https://minisite.jobleap4u.com/
+- 求职导航站：https://s.jobleap4u.com/
 - AI Agent小酒馆：https://www.uhaka.com/
 
 ## 目录速览
