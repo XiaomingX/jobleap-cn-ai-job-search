@@ -8,6 +8,8 @@
 - JobLeap 小助手：https://jobleap.cn/
 - 求职导航站：https://s.jobleap4u.com/
 - AI Agent小酒馆：https://www.uhaka.com/
+- 校招信息差: https://xz.jobleap4u.com/
+
 
 ## 目录速览
 - `jobleap.cn-谁在招人-校招/`、`jobleap.cn-谁在招人-实习/`、`jobleap.cn-谁在招人-社招/`：按日期更新的岗位动态
